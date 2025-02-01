@@ -1,0 +1,31 @@
+.postsBlock {
+  padding: 10px;
+}
+
+.posts {
+  margin-top: 10px;
+}
+
+.text {
+  background-color: blanchedalmond;
+  min-width: 100px;
+  max-width: 1000px;
+  min-height: 50px;
+  max-height: 300px;
+  word-wrap: break-word;
+  line-height: 22px;
+  font-weight: 700;
+}
+.btn {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+.btn:hover {
+  background-color: #2980b9;
+  box-shadow: 7px 9px 17px 0px rgba(67, 165, 231, 0.2);
+}

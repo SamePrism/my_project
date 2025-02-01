@@ -1,0 +1,92 @@
+.dialogs {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+}
+
+.dialogsItems,
+.messages {
+  padding: 10px;
+}
+
+.dialogsItems {
+  height: fit-content;
+  position: sticky;
+  top: 10px;
+}
+.dialogsItems a {
+  text-decoration: none;
+}
+
+.message {
+  min-height: 30px;
+  max-width: 800px;
+  color: black;
+  width: 85%;
+  margin: 10px 15px;
+  border-radius: 10px;
+  font-size: 1.3rem;
+  border: 1px solid black;
+  padding: 7px;
+  word-wrap: break-word;
+  overflow-y: auto;
+}
+.dialog {
+  background-color: hsla(0, 100%, 50%, 30%);
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  text-decoration: none;
+  color: black;
+  width: 100%;
+}
+.dialog:hover {
+  background-color: hsla(0, 100%, 50%, 80%);
+}
+
+.activeLink div {
+  background-color: red;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.input  {
+  justify-self: flex-end;
+  margin: 10px 0 10px 0;
+  
+  max-width: 600px;
+  min-width: 100%;
+  min-height: 50px;
+  max-height: 100px;
+  height: 50px;
+  line-height: 20px;
+  word-wrap: break-word;
+  overflow-y: auto;
+}
+.sendButton img {
+  width: 30px;
+  height: 40px;
+}
+.sendButton {
+  position: absolute;
+  right: -30px;
+  top: 30px;
+  background-color: aqua;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  padding-right: 5px;
+}
+.sendButton:hover {
+  background-color: aqua;
+  opacity: 0.8;
+}
+.item {
+  position: relative;
+  width: 80%;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  padding-left: 30px;
+}

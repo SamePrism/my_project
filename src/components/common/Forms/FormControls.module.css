@@ -1,0 +1,22 @@
+.formControl {
+  width: 90%;
+  border: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  > span {
+    font-size: 1.2rem;
+    font-weight: 700;
+    color: red;
+    border-radius: 5px;
+    height: fit-content;
+    width: 280px;
+  }
+}
+
+.error input {
+  border: 2px solid red;
+}
+.error textarea {
+  border: 2px solid red;
+}

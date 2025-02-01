@@ -1,0 +1,39 @@
+.header {
+  grid-area: h;
+  background: linear-gradient(to right, hsla(153, 9%, 19%, 100%), red);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header img {
+  width: fit-content;
+  height: 100%;
+}
+.greet {
+  font-size: 2rem;
+  color: aliceblue;
+  transform: translateX(30px);
+}
+.login {
+  font-size: 1.1rem;
+  color: white;
+  text-decoration: none;
+  margin: 10px;
+  cursor: pointer;
+  padding: 5px;
+  border-radius: 5px;
+}
+a .login_img {
+  width: 50px;
+  height: 50px;
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+  color: white;
+  font-size: 1.2rem;
+}

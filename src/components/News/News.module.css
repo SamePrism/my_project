@@ -1,0 +1,69 @@
+.news{
+    padding: 10px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.container{
+    width: 300px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+.image{
+    width: 100%;
+    height: 70px;
+    background-size: cover;
+    margin-top: 15px;
+}
+.title{
+    font-size: 1.5rem;
+    font-weight: 500;
+    text-align: center;
+}
+.description{
+font-size: 1.1rem;
+
+}
+.date{
+    text-align: center;
+}
+.buttons{
+    position: relative;
+}
+.btnNext{
+    position: absolute;
+   top: 90%;
+   transform: translateY(20px);
+    right: 40px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.btnPrev{
+    position: absolute;
+    top: 90%;
+    transform: translateY(20px);
+    left: 40px;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    background-color: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 15px;
+}
+.btnPrev:hover, .btnNext:hover {
+    background-color: #007bff;
+    color: white;
+}

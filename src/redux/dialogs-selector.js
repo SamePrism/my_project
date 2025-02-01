@@ -1,0 +1,1 @@
+export const getDialogsPageSelector = (state) => state.dialogsPage
