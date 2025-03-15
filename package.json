@@ -2,6 +2,7 @@
   "name": "my_project",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://sameprism.github.io/my_project",
   "jest": {
     "transformIgnorePatterns": [
       "node_modules/(?!(react-leaflet|@react-leaflet|d3-*axios))"
@@ -15,6 +16,7 @@
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
     "axios": "^1.7.3",
+    "gh-pages": "^6.3.0",
     "path-to-regexp": "^1.7.0",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
@@ -32,7 +34,9 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [

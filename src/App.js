@@ -39,6 +39,7 @@ class App extends React.Component {
                   path="/profile/:profileId?"
                   element={<ProfileContainer />}
                 />
+                
                 <Route path="/music" element={<Music />} />
                 <Route path="/news" element={<NewsContainer />} />
                 <Route path="/users" element={<UsersContainer />} />
