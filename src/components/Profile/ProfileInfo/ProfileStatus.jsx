@@ -28,13 +28,14 @@ const ProfileStatus = (props) => {
     <div className={s.about}>
       {editMode ? (
         <input
+          data-testid = "input_status"
           onChange={onStatusChange}
           autoFocus={true}
           onBlur={deactivateEditMode}
           value={status}
         />
       ) : (
-        <span onDoubleClick={activateEditMode}> {status} </span>
+        <span data-testid = "span_status" onDoubleClick={activateEditMode}> {status} </span>
       )}
     </div>
   );

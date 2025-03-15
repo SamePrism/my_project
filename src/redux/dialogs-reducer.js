@@ -18,17 +18,14 @@ let initialState = {
       id: 1,
       name: "диалог 1",
       messages: [
-        { id: 1, message: "Привет!" },
-        { id: 2, message: "Как ты?" },
-        { id: 3, message: "Не устал?" },
-        { id: 4, message: "Советую отдохнуть" },
+        { id: 1, message: "Кдассный проект!" }
       ],
       active: true,
     },
     {
       id: 2,
       name: "диалог 2",
-      messages: [{ id: 5, message: "Классный проект!" }],
+      messages: [{ id: 5, message: "амогус" }],
       active: false,
     },
     { id: 3, name: "диалог 3", messages: [{ id: 6, message: "Классный проект!" }], },

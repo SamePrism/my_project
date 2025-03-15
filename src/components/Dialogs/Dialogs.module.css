@@ -70,8 +70,8 @@
 }
 .sendButton {
   position: absolute;
-  right: -30px;
-  top: 30px;
+  right: 0px;
+  top: 15px;
   background-color: aqua;
   border-radius: 50%;
   height: 50px;
