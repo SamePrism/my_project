@@ -1,11 +1,13 @@
-import axios from "axios";
+import axios from "axios"; 
+
+import api_params from "./keys.js"
 
 const instance = axios.create({
   withCredentials: true,
   baseURL: "https://social-network.samuraijs.com/api/1.0/",
   headers: {
-    "API-KEY": "e1ed8601-5c1c-45f4-bd62-da3522a7ab78",
-    "Authorization": "Bearer " + "b6433b77-266c-447c-b27e-6e2119ab0156"
+    "API-KEY": api_params.key,
+    "Authorization": "Bearer " + api_params.token
   },
 });
 
