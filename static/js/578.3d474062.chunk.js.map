@@ -1,0 +1,1 @@
+{"version":3,"file":"static/js/578.3d474062.chunk.js","mappings":"kJAAA,MAKA,EALcA,KACHC,EAAAA,EAAAA,KAAA,OAAAC,SAAK,qB","sources":["components/Music/Music.jsx"],"sourcesContent":["const Music = () =>{\r\n    return <div>\r\n        future music page\r\n    </div>\r\n}\r\nexport default Music;"],"names":["Music","_jsx","children"],"sourceRoot":""}
